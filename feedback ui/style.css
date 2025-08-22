@@ -1,0 +1,48 @@
+img {
+  width: 70px;
+}
+.emoji {
+  display: flex;
+  gap: 50px;
+}
+.main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  background-color: rgb(164, 255, 169);
+  border-radius: 10px;
+  gap: 30px;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+.feedback {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  background-color: rgb(164, 255, 169);
+  border-radius: 10px;
+  gap: 10px;
+  display: none;
+}
+.feedback h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.feedback p {
+  font-size: 17px;
+  font-weight: bold;
+}
+button {
+  padding: 10px;
+}

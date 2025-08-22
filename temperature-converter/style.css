@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+div {
+  background-color: lightgreen;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-direction: column;
+  padding: 30px;
+
+
+}
+h1 {
+  font-size: 35px;
+  text-align: center;
+}
+label {
+  font-size: 20px;
+}
+
+input, button {
+  padding: 10px;
+  font-size: 20px;
+}

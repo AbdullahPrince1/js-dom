@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+
+}
+div{
+    background-color: lightgreen;
+    padding: 25px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+input{
+    font-size: 27px;
+}
+button{
+    font-size: 18px;
+    padding: 10px;
+}
+span, label, p{
+    font-size: 20px;
+}
